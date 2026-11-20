@@ -1,0 +1,35 @@
+# Frontend dependencies and builds
+node_modules/
+dist/
+dist-ssr/
+
+# .NET generated files
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/secrets.json
+**/secrets.*.json
+**/appsettings.Development.json
+
+# Logs and temporary files
+*.log
+logs/
+temp/
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Database backups and local database files
+*.bak
+*.mdf
+*.ldf
